@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #4C5675;
+  color: #FFF;
   text-decoration: none;
 }
 
 a:hover {
-  color: #73c5eb;
+  color: #ffffff80;
   text-decoration: none;
 }
 
@@ -168,7 +168,7 @@ img.img-fluid.animated {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 30px;
+  /* padding: 10px 0 10px 30px; */
   font-size: 15px;
   font-weight: 500;
   color: #fff;
@@ -183,7 +183,8 @@ img.img-fluid.animated {
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #4C5675;
+  color: #ffffffb5;
+  /* font-weight: 600; */
 }
 
 .navbar .getstarted {
@@ -192,13 +193,14 @@ img.img-fluid.animated {
   border-radius: 50px;
   color: #fff;
   font-size: 14px;
-  border: 2px solid #4C5675;
+  border: 2px solid #FFF;
   font-weight: 600;
 }
 
 .navbar .getstarted:hover {
   color: #fff;
-  background: #31a9e1;
+  background: #4c5675;
+  border: 2px solid #4c5675;
 }
 
 .navbar .dropdown ul {
@@ -411,7 +413,8 @@ img.img-fluid.animated {
 }
 
 #hero .btn-get-started:hover {
-  background: #209dd8;
+  background: #ffffff;
+  color: #505050;
 }
 
 #hero .btn-watch-video {
@@ -1093,7 +1096,7 @@ section {
 
 .team .member .pic {
   overflow: hidden;
-  width: 180px;
+  width: 100px;
   border-radius: 50%;
 }
 
@@ -1772,7 +1775,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #209dd8;
+  background: #ea713a;
   color: #fff;
   text-decoration: none;
 }
@@ -1809,4 +1812,27 @@ section {
   #footer .credits {
     padding-top: 4px;
   }
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+.img-service {
+  width: 50px;
 }
